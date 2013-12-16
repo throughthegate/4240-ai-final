@@ -26,11 +26,11 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 		}
 	}
 	
-	print "<h1>Hello, " . $_SESSION['name'] . "</h1>";
+	print "<p class='float-left'>Hello, " . $_SESSION['name'] . "</p>";
 	
 	//form for changing name
 	print "
-		<form action='' method='post' name='changeName'>
+		<form class='float-right' action='' method='post' name='changeName'>
 			Enter your name: <input type='text' name='name' value='".$_SESSION['name']."' />
 			<input type='submit' value='Update your name' name='changeName'/>
 		</form>
