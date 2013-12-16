@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <persona name="happy">
+        <case1>a</case1>
+        <case2>b</case2>
+        <case3>c</case3>
+    </persona>
+    <persona name="sad">
+        <case1>d</case1>
+        <case2>e</case2>
+        <case3>f</case3>
+    </persona>
+    <persona name="sleepy">
+        <case1>what</case1>
+        <case2>huh</case2>
+        <case3>but</case3>
+    </persona>
+</database>
