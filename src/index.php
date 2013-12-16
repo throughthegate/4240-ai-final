@@ -13,6 +13,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 </head>
 
 <body>
+	<!--header div-->
 	<div id='header'>
 	<?php
 	//if they submit the form to change their name
@@ -34,9 +35,14 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 			<input type='submit' value='Update your name' name='changeName'/>
 		</form>
 	";
-	
 	?>
 	</div>
+	
+	<!-- iphone div -->
+	<div id='iphone-div'>
+		<iframe id='iphone-iframe' src='http://cornell.edu'  width='320' height='480' seamless='seamless' frameborder="0" allowtransparency="true" scrolling="no">Iframe of iphone</iframe>
+	</div>
+	
 </body>
 
 </html>
