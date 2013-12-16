@@ -1,0 +1,12 @@
+#iphone-body{
+	width:320px;
+	min-height:480px;
+	background-image:url('../img/wallpaper_lake.jpg');
+}
+
+#status-bar{
+	padding-top:2px;
+	padding-bottom:2px;
+	background:#000;
+	color:#EEE;
+}

@@ -40,7 +40,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 	
 	<!-- iphone div -->
 	<div id='iphone-div'>
-		<iframe id='iphone-iframe' src='http://cornell.edu'  width='320' height='480' seamless='seamless' frameborder="0" allowtransparency="true" scrolling="no">Iframe of iphone</iframe>
+		<iframe id='iphone-iframe' src='iphone-home.php'  width='320' height='480' seamless='seamless' frameborder="0" allowtransparency="true" scrolling="no">Iframe of iphone</iframe>
 	</div>
 	
 </body>
