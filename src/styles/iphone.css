@@ -10,3 +10,21 @@
 	background:#000;
 	color:#EEE;
 }
+
+.icon-row{
+	height:80px;
+}
+
+.first-icon-row{
+	padding-top:10px;
+}
+
+.icon{
+	float:left;
+	width:80px;
+	font-size:0.8em;
+}
+
+.placeholder{
+	opacity:0.6;
+}
