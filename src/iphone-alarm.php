@@ -9,5 +9,5 @@ $content = "
 ";
 
 //plugs the $content into the iphone template file.
-include_once('includes/iphoneTemplate.php');
+include_once('iphoneTemplate.php');
 ?>

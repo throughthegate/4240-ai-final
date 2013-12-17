@@ -11,6 +11,12 @@
 	color:#EEE;
 }
 
+#alarm-off{
+	background-image:url('../img/phone_screens/alarm_off-01.png');
+	width:320px;
+	height:480px;
+}
+
 /* icon display styles */
 
 .icon-row{

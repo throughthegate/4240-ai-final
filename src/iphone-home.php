@@ -40,11 +40,11 @@ for($j=1; $j<=2; $j++){
 }
 
 $content .= "
-	<div class='icon-row voice-button>
+	<div class='icon-row voice-button'>
 		<p>Tap for \"Voice Commands\"</p>
 	</div>
 ";
 
 //plugs the $content into the iphone template file.
-include_once('includes/iphoneTemplate.php');
+include_once('iphoneTemplate.php');
 ?>
