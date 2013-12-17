@@ -54,6 +54,9 @@ include_once('includes/firstLine.php'); //include this to check sessions.
         <!-- diagnostics div -->
         <div id='diagnostics'>
             <?php
+            echo "This is a simulation of a 'personal AI,' a form of mobile artificial intelligence";
+            echo "<br /><br />"; 
+            echo "<h2>Your AI's Current Traits: </h2>";
             echo "<p>Trait 1:".$_SESSION['trait1']."<br />"."<p>Trait 2:".$_SESSION['trait2']."<br />"."<p>Trait 3:".$_SESSION['trait3']."<br />";
             echo "<br /><br />";
             
@@ -65,6 +68,11 @@ include_once('includes/firstLine.php'); //include this to check sessions.
             ";
             ?>
             
+        </div>
+        
+        <!-- active area div - diagnostics div shows up when this div is moused over -->
+        <div id='activate_d'>
+            <h1 id="hoverprompt"> >> Hover over to access options. <<</h1>
         </div>
 </body>
 
