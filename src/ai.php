@@ -18,9 +18,7 @@
         $_SESSION['trait1'] = $trait_list[$trait_random[0]];
         $_SESSION['trait2'] = $trait_list[$trait_random[1]];
         $_SESSION['trait3'] = $trait_list[$trait_random[2]];
-        
-        echo($_SESSION['trait1']."<br />".$_SESSION['trait2']."<br />".$_SESSION['trait3']."<br />");
-        echo("<br /><br /><br />");
+    
     }
     
     function get_quote($action){
@@ -42,12 +40,8 @@
         $_SESSION['quote_array'] = array($item1, $item2, $item3);
         $quote_array = $_SESSION['quote_array'];
         
-        print_r($quote_array);
         
         $_SESSION['quote'] = $quote_array[array_rand($quote_array)];
-        
-        echo "<br /><br />";
-        echo $_SESSION['quote'];
     }
   
 
