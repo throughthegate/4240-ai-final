@@ -1,12 +1,14 @@
 <?php
+    include('includes/firstLine.php');
+    
     //The list of AI traits
-    //$trait_list = array("jovial", "belligerent", "lazy", "snarky", "motivational", "amorous", "bubbly", "humorous", "optimistic", "pessimistic", "bossy", "artistic", "pedantic", "empathetic", "adventurous", "crude");
-    $trait_list = array("jovial", "belligerent", "lazy", "snarky");
+    $trait_list = array("jovial", "belligerent", "lazy", "snarky", "motivational", "amorous", "bubbly", "humorous", "optimistic", "pessimistic", "bossy", "artistic", "pedantic", "empathetic", "adventurous", "crude");
+
     //Initiates the xml file
-    $path = "src/personas.xml";
+    $path = "personas.xml";
     $xml = simplexml_load_file($path);
     
-    $user = $_SESSION['user'];
+    $user = $_SESSION['name'];
     
     function generate_traits(){
     //Randomly picks two traits and assigns them to the appropriate session variables
@@ -30,11 +32,11 @@
         $trait3 = $_SESSION['trait3'];
         
         $item1 = $xml->xpath("//persona[@name=\"$trait1\"]/$action");
-        $item1 = (string)$item1[0];
+        $item1 = str_replace('$user', $user, (string)$item1[0]);
         $item2 = $xml->xpath("//persona[@name=\"$trait2\"]/$action");
-        $item2 = (string)$item2[0];
+        $item2 = str_replace('$user', $user, (string)$item2[0]);
         $item3 = $xml->xpath("//persona[@name=\"$trait3\"]/$action");
-        $item3 = (string)$item3[0];
+        $item3 = str_replace('$user', $user, (string)$item3[0]);
 
         
         $_SESSION['quote_array'] = array($item1, $item2, $item3);
@@ -45,7 +47,7 @@
         $_SESSION['quote'] = $quote_array[array_rand($quote_array)];
         
         echo "<br /><br />";
-        print_r($_SESSION['quote']);
+        echo $_SESSION['quote'];
     }
   
 
