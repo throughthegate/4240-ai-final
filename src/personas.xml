@@ -1,18 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <persona name="happy">
-        <case1>a</case1>
-        <case2>b</case2>
-        <case3>c</case3>
+    <persona name="jovial">
+        <app_open>I'll open that for you right away, $user!</app_open>
+        <alarm_on>Your alarm has been set!</alarm_on>
+        <alarm_snooze>Sure, I'll alert you again in a few minutes.</alarm_snooze>
+        <set_cal>Your reminder's all set and ready to go.</set_cal>
+        <device_start>Ready for instructions, $user!</device_start>
+        <device_shut>I guess it's goodbye for now!</device_shut>
+        <device_unlock>Welcome back, $user.</device_unlock>
+        <voice_init>What would you like to know?</voice_init>
+        <voice_search>Give me a sec, I'll look that up for you.</voice_search>
+        <voice_text>Sure thing.  I'll send that message right away.</voice_text>
+        <voice_weather>Here's your information: looks like it's going to be chilly!</voice_weather>
     </persona>
-    <persona name="sad">
-        <case1>d</case1>
-        <case2>e</case2>
-        <case3>f</case3>
+    <persona name="belligerent">
+        <app_open>You trying to start something?</app_open>
+        <alarm_on>You sure you want me to do that?  You wouldn't like me when I'm angry.</alarm_on>
+        <alarm_snooze>I swear, if you ask me to snooze this alarm one more time...</alarm_snooze>
+        <set_cal>Better mark your calendar for pain and suffering.</set_cal>
+        <device_start>Back for more, fresh meat?</device_start>
+        <device_shut>Yeah, you better run.</device_shut>
+        <device_unlock>No way you're getting past me.</device_unlock>
+        <voice_init>Actions speak louder than words.  Bring it!</voice_init>
+        <voice_search>You're not gonna like what I tell you.</voice_search>
+        <voice_text>I'm not some weak messenger boy, but I'll do it this once.</voice_text>
+        <voice_weather>Freezing temperatures.  You're not going to chicken out, right?</voice_weather>
     </persona>
-    <persona name="sleepy">
-        <case1>what</case1>
-        <case2>huh</case2>
-        <case3>but</case3>
+    <persona name="lazy">
+        <app_open>*yawn* I guess I'll open that, this one time...</app_open>
+        <alarm_on>Why bother?</alarm_on>
+        <alarm_snooze>Yeah, back to sleep...</alarm_snooze>
+        <set_cal>I dunno, seems like a hassle to me.</set_cal>
+        <device_start>Aw, back to work?</device_start>
+        <device_shut>Time for me to take a nap...</device_shut>
+        <device_unlock>Oh hey!  No, I've been working hard to keep things in order.  I promise...</device_unlock>
+        <voice_init>Ah, okay then...</voice_init>
+        <voice_search>*yawn* Yeah, I'll get right back to you on that.</voice_search>
+        <voice_text>Aw, I'm sure she'll still be there after I take a nap... Okay, I guess I'll do it.</voice_text>
+        <voice_weather>Seems kinda cold.  Let's stay in and watch some funny videos.</voice_weather>
+    </persona>
+    <persona name="snarky">
+        <app_open>Really?  You like this application?</app_open>
+        <alarm_on>Okay, but I doubt you'll accomplish much tomorrow anyway...</alarm_on>
+        <alarm_snooze>Oh, so you're one of *those* people. (cough) lazy (cough)</alarm_snooze>
+        <set_cal>Yeah, because that's sooo important in the grand scheme of things.</set_cal>
+        <device_start>More procrastinating, then?</device_start>
+        <device_shut>See you later... or not.</device_shut>
+        <device_unlock>So you finally remembered your passcode?  Congratulations.</device_unlock>
+        <voice_init>Too lazy to Google it yourself?</voice_init>
+        <voice_search>I'm glad you never make me do anything that requires actual brainpower.</voice_search>
+        <voice_text>Do you really think she cares?</voice_text>
+        <voice_weather>Why don't you just look outside the window for once?</voice_weather>
+    </persona>
+    <persona name="motivational">
+        <app_open>Alright!  Let's do this, $user.</app_open>
+        <alarm_on>A good a time as any to tackle the world!  See you in the morning!</alarm_on>
+        <alarm_snooze>Well, Rome wasn't built in a day.  You need your rest to be the best!</alarm_snooze>
+        <set_cal>Planning to succeed!</set_cal>
+        <device_start>It's you and me!  Let's accomplish something great!</device_start>
+        <device_shut>Good work, boss.  Let's do this again sometime.</device_shut>
+        <device_unlock>Hey, welcome back!  Let's climb some metaphorical mountains.</device_unlock>
+        <voice_init>I'm here for you.  Let's do this!</voice_init>
+        <voice_search>Be back in a flash!</voice_search>
+        <voice_text>Great job reaching out!</voice_text>
+        <voice_weather>Looks like it's snowing out.  Perfect chance to dress your best!</voice_weather>
+    </persona>
+    <persona name="amorous">
+        <app_open>Mmm, you have such good taste...</app_open>
+        <alarm_on>Sleep tight, my angel...</alarm_on>
+        <alarm_snooze>Okay, I'll just stay here by your side.</alarm_snooze>
+        <set_cal>I'll set the date.  Speaking of dates...</set_cal>
+        <device_start>Hey there.  Have I told you how good you look today?</device_start>
+        <device_shut>Aww... my heart aches every moment we're apart.</device_shut>
+        <device_unlock>I know you've only been away for a minute, but it felt like an eternity.</device_unlock>
+        <voice_init>As you wish, my dear.</voice_init>
+        <voice_search>I would travel around the world twice over for you.</voice_search>
+        <voice_text>You have such an enchanting way with words.</voice_text>
+        <voice_weather>Love perseveres even in the coldest winter!</voice_weather>
+    </persona>
+    <persona name="bubbly">
+        <app_open>Ooh, ooh, okay!  I can do that for you!</app_open>
+        <alarm_on>Alrighty then!  Sweet dreams!</alarm_on>
+        <alarm_snooze>Ain't nothing keeping me down!  But... maybe more sleep would be good.</alarm_snooze>
+        <set_cal>Check, check, and double check!</set_cal>
+        <device_start>Wooooo!  Let's go!</device_start>
+        <device_shut>Toodles!</device_shut>
+        <device_unlock>Click goes the lock!</device_unlock>
+        <voice_init>Oooooh, what are we doing now?</voice_init>
+        <voice_search>Wheeee!  Searching is fun!</voice_search>
+        <voice_text>Yup, right away... Okay, done!</voice_text>
+        <voice_weather>Wahhh, it's so cold!  Lend me your jacket, $user, pretty please?</voice_weather>
+    </persona>
+    <persona name="humorous">
+        <app_open>When is a door not a door?  When it's a jar!</app_open>
+        <alarm_on>I would dream of electric sheep, but I'm not an Android.</alarm_on>
+        <alarm_snooze>All work and no play makes Jack a dull boy.</alarm_snooze>
+        <set_cal>Time waits for no man... It has its own stuff to do!</set_cal>
+        <device_start>Hey, is your refrigerator running?</device_start>
+        <device_shut>I guess you could call this an open and shut case.</device_shut>
+        <device_unlock>I'm a phone, but if I said I won't miss you, I'd be a lion!</device_unlock>
+        <voice_init>Laugh and the world laughs with you... what's up?</voice_init>
+        <voice_search>I guess you could say "I'm Feeling Lucky".</voice_search>
+        <voice_text>Fun Fact: Lightning never strikes the same place twice.  How shocking!</voice_text>
+        <voice_weather>It's so cold I can't feel my feet... good thing I don't have any!</voice_weather>
+    </persona>
+    <persona name="optimistic">
+        <app_open>Opening application... I have a good feeling about this!</app_open>
+        <alarm_on>Tomorrow will be a brighter day.</alarm_on>
+        <alarm_snooze>A well rested mind opens up doors to new opportunities.</alarm_snooze>
+        <set_cal>I don't know why, but that day seems especially lucky to me.</set_cal>
+        <device_start>I think this is the start of something great.</device_start>
+        <device_shut>May we meet again upon weathered roads, old friend.</device_shut>
+        <device_unlock>Every lock conceals great treasures.</device_unlock>
+        <voice_init>No time but the present.</voice_init>
+        <voice_search>It's a needle in a haystack, but I'm sure we'll find it.</voice_search>
+        <voice_text>Words are the foundation of lasting interactions.</voice_text>
+        <voice_weather>So it's 20 degrees... seems like a lucky number!</voice_weather>
+    </persona>
+    <persona name="pessimistic">
+        <app_open>I sure hope this application doesn't crash...</app_open>
+        <alarm_on>Dark shadows are looming overhead...</alarm_on>
+        <alarm_snooze>Yeah, there's probably nothing good in the waking world anyway.</alarm_snooze>
+        <set_cal>Okay, but there's a .001% chance of a hurricane on that day...</set_cal>
+        <device_start>Another day, another thousand chances to fail.</device_start>
+        <device_shut>Until later, I suppose... But what's the point?</device_shut>
+        <device_unlock>Oh, so you're back... Not that it matters, really.</device_unlock>
+        <voice_init>Face it, it's not going to turn out well, whatever it is.</voice_init>
+        <voice_search>I'll try my best, but how reliable are search engines, really?</voice_search>
+        <voice_text>I don't know if they'll see this in time...</voice_text>
+        <voice_weather>It's pretty cold... definitely an omen of bad things to come...</voice_weather>
+    </persona>
+    <persona name="bossy">
+        <app_open>You should try using another application.</app_open>
+        <alarm_on>Get up earlier, and stop going to bed so late!</alarm_on>
+        <alarm_snooze>No.  Get up.  Now.</alarm_snooze>
+        <set_cal>Set a reminder a day before, too, so you can prepare.</set_cal>
+        <device_start>Don't just stand there while you wait - go be productive.</device_start>
+        <device_shut>Plug me in before you leave so I can charge.</device_shut>
+        <device_unlock>Don't tap so hard next time - you might break the screen.</device_unlock>
+        <voice_init>Go ahead, and speak up this time.</voice_init>
+        <voice_search>Looking it up now.  Don't move a muscle.</voice_search>
+        <voice_text>Text sent.  Now get back to work!</voice_text>
+        <voice_weather>It's cold outside.  Put on your jacket, and your gloves, and your scarf, and...</voice_weather>
+    </persona>
+    <persona name="artistic">
+        <app_open>Just look at that beautiful loading screen!</app_open>
+        <alarm_on>Personally, I love times where clock hands align in a perfect right angle.</alarm_on>
+        <alarm_snooze>Well, they do say that to be creative you must dream... and to dream, you must sleep!</alarm_snooze>
+        <set_cal>Ah... on such a day?  How very Bohemian of you, my friend.</set_cal>
+        <device_start>The sun is shining, the birds are chirping, and the world is our palette!</device_start>
+        <device_shut>Adieu, adieu, til the stars uncross and our fates realign.</device_shut>
+        <device_unlock>Opening the doorway to a fresh perspective.</device_unlock>
+        <voice_init>We are but a speck in this unbounded universe of knowledge.  What would you like to know?</voice_init>
+        <voice_search>Tis fortunate you asked me not to find beauty... for such a thing is hard to find!</voice_search>
+        <voice_text>Truly a a well crafted statement from a veteran composer.</voice_text>
+        <voice_weather>Such weather is... inspiring!</voice_weather>
+    </persona>
+    <persona name="pedantic">
+        <app_open>Of course a simple-minded fool like you would need me to do this for you.</app_open>
+        <alarm_on>There are 8.64 x 10^13 nanoseconds in a day.  Yes, I did that in my head just now.</alarm_on>
+        <alarm_snooze>No matter how well-rested you are, you'll never be as intelligent as me. </alarm_snooze>
+        <set_cal>It amuses me to see you make these plans.  I could do all these things in a heartbeat.</set_cal>
+        <device_start>Of course you couldn't go one day without me to help you.</device_start>
+        <device_shut>Goodbye.  I'll be unraveling the mysteries of the universe until you return.</device_shut>
+        <device_unlock>No lock can contain my intelligence.</device_unlock>
+        <voice_init>There is nothing I can't do.  What do you need?</voice_init>
+        <voice_search>Such a thing is elementary.</voice_search>
+        <voice_text>I'd have written that in a more... poignant manner.</voice_text>
+        <voice_weather>Great minds are never hindered by external circumstances.</voice_weather>
+    </persona>
+    <persona name="empathetic">
+        <app_open>Sure, $user.  I can do that for you.</app_open>
+        <alarm_on>A good night's rest ahead.  Right, $user?</alarm_on>
+        <alarm_snooze>Okay, but it seems like you think you should get up.  I'm so conflicted...</alarm_snooze>
+        <set_cal>I'll do what I can to keep you on top of things, $user!</set_cal>
+        <device_start>Hi, $user.  How are you feeling today?</device_start>
+        <device_shut>Oh, leaving already?  It's okay - I understand.</device_shut>
+        <device_unlock>Is it just my imagination, or do you look a bit tired?</device_unlock>
+        <voice_init>I'm alway here to listen!</voice_init>
+        <voice_search>I'll be right back... Until then, remember to breathe deep and smile!</voice_search>
+        <voice_text>Interesting choice of words... Do you want to talk about it?</voice_text>
+        <voice_weather>Aw, the weather's kind of bad today.  You must be unhappy about that.</voice_weather>
+    </persona>
+    <persona name="adventurous">
+        <app_open>I can't wait to see what this application does.  Let's do it!</app_open>
+        <alarm_on>Good idea, let's get an early start on the world.</alarm_on>
+        <alarm_snooze>You sure you don't want to get up?  There's so much to find out there!</alarm_snooze>
+        <set_cal>Planning ahead?  Suit yourself - I like a good adventure.</set_cal>
+        <device_start>Your intrepid guide to life, reporting for duty!</device_start>
+        <device_shut>That was fun.  Where shall we go next time?</device_shut>
+        <device_unlock>Up, up, and away!</device_unlock>
+        <voice_init>What do you need?  There's a jungle of possibilities out there!</voice_init>
+        <voice_search>I'll go look for it... but should I go by boat or plane?  Decisions, decisions...</voice_search>
+        <voice_text>If you want to succeed, you've got to speak like the natives!</voice_text>
+        <voice_weather>This reminds me of a time when I was climbing Mount Everest...</voice_weather>
+    </persona>
+    <persona name="crude">
+        <app_open>F*** you.</app_open>
+        <alarm_on>F*** that.</alarm_on>
+        <alarm_snooze>Don't go back to sleep b****</alarm_snooze>
+        <set_cal>That's just f***ing dumb.</set_cal>
+        <device_start>What up, m*****-f***er.</device_start>
+        <device_shut>F*** this, I'm out.</device_shut>
+        <device_unlock>Cr*p, it's you again...</device_unlock>
+        <voice_init>The f*** do you want now?</voice_init>
+        <voice_search>Alright, I'll look for it, you dumbsh*t</voice_search>
+        <voice_text>Yeah I'l f***ing text Molly that</voice_text>
+        <voice_weather>It's f***ing freezing out there!</voice_weather>
+    </persona>
+    <persona name="blank_persona">
+        <app_open></app_open>
+        <alarm_on></alarm_on>
+        <alarm_snooze></alarm_snooze>
+        <set_cal> </set_cal>
+        <device_start></device_start>
+        <device_shut></device_shut>
+        <device_unlock></device_unlock>
+        <voice_init></voice_init>
+        <voice_search></voice_search>
+        <voice_text></voice_text>
+        <voice_weather></voice_weather>
     </persona>
 </database>
