@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<!-- iphone CSS-->
 	<link rel="stylesheet" type="text/css" href="styles/iphone.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>

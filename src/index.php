@@ -10,6 +10,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<!-- main CSS-->
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>

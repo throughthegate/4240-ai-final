@@ -34,7 +34,7 @@ h3{ font-size: 1.2em;}
 #iphone-div{
 	margin:auto;
 	margin-top:100px;
-	
+	z-index:-999;
 	height:782px;
 	width:426px;
 	background-image:url('../img/iphone.png');
@@ -43,12 +43,12 @@ h3{ font-size: 1.2em;}
 
 #iphone-iframe{
 	position:relative;
-	top:150px;
+	top:149px;
 	left:54px;
     background-color: transparent;
     border: 0px none transparent;
     padding: 0px;
     overflow: hidden;
-	z-index:-900;
+	z-index:-800;
 }
 /* End iphone iframe style */
