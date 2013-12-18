@@ -1,9 +1,7 @@
 <?php
     include('includes/firstLine.php');
     
-    //The list of AI traits
-    $trait_positive = array("jovial", "motivational", "amorous", "bubbly", "humorous", "optimistic", "artistic", "empathetic", "adventurous");
-    $trait_negative = array("belligerent", "lazy", "snarky", "pessimistic", "bossy", "pedantic", "crude");
+ 
 
     //Initiates the xml file
     $path = "personas.xml";
@@ -13,8 +11,9 @@
     
     function generate_traits(){
     //Randomly picks two positive traits and assigns them to the appropriate session variables
-        global $trait_positive;
-        global $trait_negative;
+      //The list of AI traits
+    $trait_positive = array("jovial", "motivational", "amorous", "bubbly", "humorous", "optimistic", "artistic", "empathetic", "adventurous");
+    $trait_negative = array("belligerent", "lazy", "snarky", "pessimistic", "bossy", "pedantic", "crude");
         
         $trait_randompos = array_rand($trait_positive, 2);
         $_SESSION['trait1'] = $trait_positive[$trait_randompos[0]];
