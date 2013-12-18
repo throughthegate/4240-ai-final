@@ -46,8 +46,10 @@
         $_SESSION['quote_array'] = array($item1, $item2, $item3);
         $quote_array = $_SESSION['quote_array'];
         
-        
         $_SESSION['quote'] = $quote_array[array_rand($quote_array)];
+        $quote = str_replace("'", "&#39", $_SESSION['quote']);
+        
+        return $quote;
     }
   
 
