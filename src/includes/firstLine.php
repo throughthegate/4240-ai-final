@@ -10,6 +10,8 @@ if(!isset($_SESSION['name']) || empty($_SESSION['name'])){
 	generate_traits();
 }
 
+
+
 /* Timezone default set to new york*/
 date_default_timezone_set('America/New_York');
 

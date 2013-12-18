@@ -122,9 +122,9 @@ $(document).ready(function(){
 		message = "Loading...";
 	}
 	var time = $('#load-info').attr('data-time'); 
-	//if no user specified time, default is 1500ms
+	//if no user specified time, default is 2000ms
 	if (!time){
-		time = 1500;
+		time = 2000;
 	}
 	//specify a slideDown time and a slideUp time
 	var timeDown = 400;

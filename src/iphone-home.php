@@ -1,23 +1,26 @@
 <?php
 include_once('includes/firstLine.php'); //include this to check sessions.
 
+
+$openApp = get_quote("app_open");
+
 //all content goes into $content variable
 $content = "
 	<div class='icon-row first-icon-row'>
 		<div class='icon text-center'>
-			<a href='iphone-calendar.php' class='message-link' data-msg='Test Message. Opening app' data-load='true' data-time=1000>
+			<a href='iphone-calendar.php' class='message-link' data-msg='$openApp' data-load='true' data-time=2000>
 				<img src='img/icons/calendar-01.png' /><br/>
 				Calendar
 			</a>
 		</div>
 		<div class='icon text-center'>
-			<a href='iphone-alarm.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
+			<a href='iphone-alarm.php' class='message-link' data-msg='$openApp' data-load='true' data-time=2000>
 				<img src='img/icons/alarm-01.png' /><br/>
 				Alarm Clock
 			</a>
 		</div>
 		<div class='icon text-center' >
-			<a href='iphone-chat.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
+			<a href='iphone-chat.php' class='message-link' data-msg='$openApp' data-load='true' data-time=2000>
 				<img src='img/icons/chat-01.png' /><br/>
 				Chat
 			</a>
