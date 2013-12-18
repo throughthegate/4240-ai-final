@@ -8,7 +8,7 @@ $content = "
 	<a href='iphone-home.php' id='snooze' class='div-link alarm-trigger-link' data-msg='Hit snooze' onclick='playPause()'>
 		&nbsp; 
 	</a>
-	<a href='iphone-home.php' id='turn-off' class='div-link alarm-trigger-link' data-msg='Hit turn off' onclick='playPause()' >
+	<a href='iphone-home.php' id='turn-off' class='div-link  alarm-trigger-link' data-msg='Hit turn off' onclick='playPause()' >
 		&nbsp; 
 	</a>
 	<audio autoplay loop id='alarmAudio'>
