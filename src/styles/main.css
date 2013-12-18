@@ -87,6 +87,10 @@ h3{ font-size: 1.2em;}
 	height:50px;
 	border-radius:10px;
 }
+#rerollTraits:hover{
+	cursor:pointer;
+	background:#d9d9d9;
+}
 
 
 
