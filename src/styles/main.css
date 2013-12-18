@@ -139,7 +139,7 @@ h3{ font-size: 1.2em;}
 #lock-button, #off-button{
 	position:relative;
 	height:30px;
-	width:50px;
+	width:45px;
 	z-index:500;
 	color:#eee;
 	opacity:0.8;
@@ -152,7 +152,7 @@ h3{ font-size: 1.2em;}
 }
 #off-button{
 	left:240px;
-	top:-572px;
+	top:-574px;
 
 }
 

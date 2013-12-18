@@ -56,14 +56,14 @@
 	border-radius:5px;
 	background:none;
 }
-
-
 #snooze{
 	top:339px;
 }
 #turn-off{
 	top:404px;
 }
+
+
 /* lock screen */
 #lock-screen{
 	background-image:url('../img/phone_screens/home_wbutton-01.png');
@@ -77,6 +77,15 @@
 	font-size:2em;
 	color:#eee;
 }
+#on-screen{
+	width:320px;
+	height:480px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:none;
+}
+
 /* chat pages */
 #chat{
 	background-image:url('../img/phone_screens/sms-01.png');
