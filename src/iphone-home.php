@@ -11,7 +11,7 @@ $content = "
 			</a>
 		</div>
 		<div class='icon text-center'>
-			<a href='iphone-alarm.php' class='message-link'>
+			<a href='iphone-alarm.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=3000>
 				<img src='img/icons/alarm-01.png' /><br/>
 				Alarm Clock
 			</a>

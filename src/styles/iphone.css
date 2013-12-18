@@ -11,10 +11,58 @@
 	color:#EEE;
 }
 
-#alarm-off{
-	background-image:url('../img/phone_screens/alarm_off-01.png');
+#battery{
+	position:absolute;
+	top:1px;
+	right:2px;
+}
+
+.iphone-app{
 	width:320px;
 	height:480px;
+}
+
+/* alarm pages */
+
+#alarm-off{
+	background-image:url('../img/phone_screens/alarm_off-01.png');
+}
+
+#alarm-on{
+	background-image:url('../img/phone_screens/alarm_on-01.png');
+}
+
+/* Notification/loading messages */
+
+#notification-bar, #load-screen{
+	width:320px;
+	position:absolute;
+	top:16px;
+	display:none;
+}
+
+#notification-bar{
+	background-image:url('../img/phone_screens/notification-01.png');
+	height:62px;
+	z-index:1000;
+}
+#notification-message{
+	padding:10px;
+	padding-left:60px;
+}
+
+#load-screen{
+	z-index:999;
+	background:#2c2c2c;
+	height:480px;
+	color:#ddd;
+	text-align:center;
+	font-size:2em;
+	padding-top:200px;
+}
+
+#load-message{
+	padding-top:20px;
 }
 
 /* icon display styles */
@@ -31,6 +79,12 @@
 	float:left;
 	width:80px;
 	font-size:0.8em;
+}
+
+.icon a{
+	text-decoration:none;
+	color:#FFF;
+	text-shadow:1px 1px 4px #333;
 }
 
 .placeholder{
