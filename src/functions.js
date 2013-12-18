@@ -108,6 +108,19 @@ $(document).ready(function(){
 
 	}); 
 });
+/* 
+Play/pause the video
+*/
+var myVideo=document.getElementById("alarmAudio"); 
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
 
 /*
 Enlarge the app when you load it

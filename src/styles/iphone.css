@@ -27,9 +27,11 @@
 #alarm-off{
 	background-image:url('../img/phone_screens/alarm_off-01.png');
 }
-
 #alarm-on{
 	background-image:url('../img/phone_screens/alarm_on-01.png');
+}
+#trigger-alarm{
+	background-image:url('../img/phone_screens/alarm_snooze-01.png');
 }
 
 #alarm-toggle{
