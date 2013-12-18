@@ -100,6 +100,42 @@
 	opacity:0.5;
 }
 
+/* calendar pages */
+#calendar{
+	background-image:url('../img/phone_screens/calendar-01.png');
+}
+#calendar-add{
+	background-image:url('../img/phone_screens/calendar_setevent-01.png');
+}
+
+a#calendar-add-page{
+	position:absolute;
+	top:292px;
+	left:179px;
+	height:40px;
+	width:40px;
+	background:none;
+}
+
+#calendar-add-page:hover, .calendar-link:hover{
+	background:#77f;
+	opacity:0.5;
+}
+
+.calendar-link{
+	position:absolute;
+	top:374px;
+	width:87px;
+	height:29px;
+	background:none;
+}
+#add-event{
+	left:59px;
+}
+#cancel-event{
+	left:175px;
+}
+
 
 /* Notification/loading messages */
 
@@ -162,7 +198,11 @@
 
 .bottom-row{
 	position:absolute;
-	top:350px;
+	top:330px;
+}
+
+.bottom-row img{
+	margin-bottom:5px;
 }
 
 .bottom-row p{

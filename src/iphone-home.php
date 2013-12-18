@@ -5,7 +5,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 $content = "
 	<div class='icon-row first-icon-row'>
 		<div class='icon text-center'>
-			<a href='iphone-calendar.php'>
+			<a href='iphone-calendar.php' class='message-link' data-msg='Test Message. Opening app' data-load='true' data-time=1000>
 				<img src='img/icons/calendar-01.png' /><br/>
 				Calendar
 			</a>
@@ -16,9 +16,11 @@ $content = "
 				Alarm Clock
 			</a>
 		</div>
-		<div class='icon text-center'>
-			<img src='img/icons/chat-01.png' /><br/>
-			Chat
+		<div class='icon text-center' >
+			<a href='iphone-chat' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
+				<img src='img/icons/chat-01.png' /><br/>
+				Chat
+			</a>
 		</div>
 		<div class='icon placeholder text-center'>
 			<img src='img/icons/placeholder-01.png' /><br/>
@@ -47,8 +49,9 @@ for($j=1; $j<=2; $j++){
 $content .= "
 	<div class='icon-row bottom-row '>
 		<p class='text-center'>
-			<a href='iphone-voice.php'><img src='img/icons/voice_command-01.png' /></a>
-			<br/>
+			<a href='iphone-trigger-alarm.php'><img src='img/icons/trigger_alarm-01.png' class='shift-1'/></a>
+			
+			<br/><a href='iphone-voice.php'><img src='img/icons/voice_command-01.png' /></a>
 			
 		</p>
 	</div>
