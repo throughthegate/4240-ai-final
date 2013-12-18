@@ -5,7 +5,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 $content = "
 	<div id='alarm-on' class='iphone-app' >
 	</div>
-	<a href='iphone-alarm-off.php' id='alarm-toggle'> &nbsp; </a>
+	<a href='iphone-alarm.php' id='alarm-toggle' class='div-link'> &nbsp; </a>
 	
 ";
 

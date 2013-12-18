@@ -32,6 +32,20 @@
 	background-image:url('../img/phone_screens/alarm_on-01.png');
 }
 
+#alarm-toggle{
+	position:absolute;
+	top:237px;
+	left:225px;
+	width:71px;
+	height:39px;
+	background:none;
+	border-radius:2px;
+}
+#alarm-toggle:hover{
+	background:blue;	
+	opacity:0.3;
+}
+
 /* Notification/loading messages */
 
 #notification-bar, #load-screen{
@@ -89,4 +103,13 @@
 
 .placeholder{
 	opacity:0.6;
+}
+
+.bottom-row{
+	position:absolute;
+	top:350px;
+}
+
+.bottom-row p{
+	width:320px;
 }

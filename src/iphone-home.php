@@ -11,7 +11,7 @@ $content = "
 			</a>
 		</div>
 		<div class='icon text-center'>
-			<a href='iphone-alarm.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=3000>
+			<a href='iphone-alarm.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
 				<img src='img/icons/alarm-01.png' /><br/>
 				Alarm Clock
 			</a>
@@ -40,8 +40,11 @@ for($j=1; $j<=2; $j++){
 }
 
 $content .= "
-	<div class='icon-row voice-button'>
-		<p>Tap for \"Voice Commands\"</p>
+	<div class='icon-row bottom-row '>
+		<p class='text-center'>
+			<img src='img/icons/voice_command-01.png' /><br/>
+			
+		</p>
 	</div>
 ";
 
