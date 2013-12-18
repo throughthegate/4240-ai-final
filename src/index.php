@@ -73,7 +73,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
             //Button that allows user to reroll their AI's traits
             print "
                 <form action='' method='post'>
-                    <input type='submit' value='Get New Traits' name='rerollTraits'>
+                    <input type='submit' value='Get New Traits' name='rerollTraits' id='rerollTraits'>
                 </form>  
             ";
             ?>
