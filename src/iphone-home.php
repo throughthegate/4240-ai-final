@@ -17,7 +17,7 @@ $content = "
 			</a>
 		</div>
 		<div class='icon text-center' >
-			<a href='iphone-chat' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
+			<a href='iphone-chat.php' class='message-link' data-msg='Test Message.' data-load='true' data-time=1000>
 				<img src='img/icons/chat-01.png' /><br/>
 				Chat
 			</a>
