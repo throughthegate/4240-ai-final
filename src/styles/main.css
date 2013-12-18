@@ -72,6 +72,22 @@ h3{ font-size: 1.2em;}
     border-radius:10px;
 }
 
+#speech_bubble{
+    position: relative;
+    left: 420px;
+    top:-400px;
+    
+}
+
+#speech_b_text{
+    position: relative;
+    left: 400px;
+    top: -550px;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+
 /*end common classes  */
 
 #header{

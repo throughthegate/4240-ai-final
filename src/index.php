@@ -50,7 +50,9 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 	<div id='iphone-div'>
 		<iframe id='iphone-iframe' name='iphone-iframe' src='iphone-home.php'  width='320' height='480' seamless='seamless' frameborder="0" allowtransparency="true" scrolling="no">Iframe of iphone</iframe>
 		<a id='home-button' class='text-center div-link' target='iphone-iframe' href="iphone-home.php">&nbsp;</a>
-	</div>
+                <img src="img/icons/text_bubble-01.png" id="speech_bubble"></img>
+                <p id="speech_b_text">Please don't throw me away, <?php echo $_SESSION['name'] ?>!</p>
+        </div>
         
         <!-- diagnostics div -->
         <div id='diagnostics'>
