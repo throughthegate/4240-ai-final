@@ -63,15 +63,15 @@ h3{ font-size: 1.2em;}
 
 #speech_bubble{
     position: relative;
-    left: 420px;
-    top:-400px;
+    left: 430px;
+    top:-460px;
     
 }
 
 #speech_b_text{
     position: relative;
     left: 400px;
-    top: -550px;
+    top: -610px;
     max-width: 300px;
     font-size: 20px;
 }
@@ -134,6 +134,25 @@ h3{ font-size: 1.2em;}
 }
 #home-button:hover:before{
 	content:"click for phone's homescreen";
+
+}
+#lock-button, #off-button{
+	position:relative;
+	height:30px;
+	width:50px;
+	z-index:500;
+	color:#eee;
+	opacity:0.8;
+	border: solid blue 2px;
+	border-radius:4px;
+}
+#lock-button{
+	left:300px;
+	top:-540px;
+}
+#off-button{
+	left:240px;
+	top:-572px;
 
 }
 

@@ -69,6 +69,14 @@
 	background-image:url('../img/phone_screens/home_wbutton-01.png');
 }
 
+#off{
+	background:#000;
+}
+#off p{
+	padding-top:200px;
+	font-size:2em;
+	color:#eee;
+}
 /* chat pages */
 #chat{
 	background-image:url('../img/phone_screens/sms-01.png');
