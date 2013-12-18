@@ -55,10 +55,19 @@ include_once('includes/firstLine.php'); //include this to check sessions.
         <!-- diagnostics div -->
         <div id='diagnostics'>
             <?php
-            echo "This is a simulation of a 'personal AI,' a form of mobile artificial intelligence";
+            echo "<h1>About This Site</h1><br /><br /><br />";
+            echo "<p>This is a simulation of a 'personal AI,' a form of mobile artificial intelligence that seeks to emulate the "
+            . "various emotions found in human beings.  Through acting the part of being a living, breathing entity with ideas and ".
+            "feelings, this AI extends the average usage lifetime of smartphones, thereby reducing the production of E-waste in the long run.  "
+            ."<br /><br />In order to prevent the AI from being overly unpleasant while preserving the negative elements that come with all people, ".
+            "we created two separate lists of positive and negative traits.  Your AI comes with two positive traits and one negative trait, which "
+            ."you can randomize using the button below.</p>";
             echo "<br /><br />"; 
-            echo "<h2>Your AI's Current Traits: </h2>";
-            echo "<p>Trait 1:".$_SESSION['trait1']."<br />"."<p>Trait 2:".$_SESSION['trait2']."<br />"."<p>Trait 3:".$_SESSION['trait3']."<br />";
+            echo "<h2><u>Your AI's Current Traits:</u></h2><br />";
+            for($i=1; $i<4; $i++){
+                echo "<h2>".ucfirst($_SESSION['trait'.$i])."</h2><br />";
+            }
+            //echo "<p>Trait 1: ".ucfirst($_SESSION['trait1'])."<br />"."<p>Trait 2: ".ucfirst($_SESSION['trait2'])."<br />"."<p>Trait 3: ".ucfirst($_SESSION['trait3'])."<br />";
             echo "<br /><br />";
             
             //Button that allows user to reroll their AI's traits
@@ -73,7 +82,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
         
         <!-- active area div - diagnostics div shows up when this div is moused over -->
         <div id='activate_d'>
-            <h1 id="hoverprompt"> &gt;&gt; Hover over to access options. &lt;&lt</h1>
+            <h1 id="hoverprompt"> &gt;&gt; Mouse over to see details. &lt;&lt</h1>
         </div>
 </body>
 

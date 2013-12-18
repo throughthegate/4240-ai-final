@@ -2,7 +2,8 @@
     include('includes/firstLine.php');
     
     //The list of AI traits
-    $trait_list = array("jovial", "belligerent", "lazy", "snarky", "motivational", "amorous", "bubbly", "humorous", "optimistic", "pessimistic", "bossy", "artistic", "pedantic", "empathetic", "adventurous", "crude");
+    $trait_positive = array("jovial", "motivational", "amorous", "bubbly", "humorous", "optimistic", "artistic", "empathetic", "adventurous");
+    $trait_negative = array("belligerent", "lazy", "snarky", "pessimistic", "bossy", "pedantic", "crude");
 
     //Initiates the xml file
     $path = "personas.xml";
@@ -11,14 +12,19 @@
     $user = $_SESSION['name'];
     
     function generate_traits(){
-    //Randomly picks two traits and assigns them to the appropriate session variables
-        global $trait_list;
+    //Randomly picks two positive traits and assigns them to the appropriate session variables
+        global $trait_positive;
+        global $trait_negative;
         
-        $trait_random = array_rand($trait_list, 3);
-        $_SESSION['trait1'] = $trait_list[$trait_random[0]];
-        $_SESSION['trait2'] = $trait_list[$trait_random[1]];
-        $_SESSION['trait3'] = $trait_list[$trait_random[2]];
+        $trait_randompos = array_rand($trait_positive, 2);
+        $_SESSION['trait1'] = $trait_positive[$trait_randompos[0]];
+        $_SESSION['trait2'] = $trait_positive[$trait_randompos[1]];
     
+    //Randomly picks one negative trait and assigns it to the appropriate session variable
+        
+        $trait_randomneg = array_rand($trait_negative, 1);
+        $_SESSION['trait3'] = $trait_negative[$trait_randomneg];
+        
     }
     
     function get_quote($action){

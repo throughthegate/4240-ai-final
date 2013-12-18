@@ -34,10 +34,26 @@ h3{ font-size: 1.2em;}
     width: 100%;
     background-color: #333;
     color: #FFFFFF;
-    padding-left: 30px;
-    padding-top: 10px;
-    size: 100px;
+    padding-top: 15px;
 }
+
+#diagnostics h1, h2, p, form{
+    margin: 0px auto;
+    max-width: 90%;
+}
+
+#diagnostics h1{
+    background-color: #4DDB67;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#diagnostics p{
+    font-size: 14px;
+}
+
+
 /*end common classes  */
 
 #header{
