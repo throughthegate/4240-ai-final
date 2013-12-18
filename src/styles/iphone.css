@@ -42,9 +42,64 @@
 	border-radius:2px;
 }
 #alarm-toggle:hover{
-	background:blue;	
+	background:#77f;	
 	opacity:0.3;
 }
+
+/* voice pages */
+#voice-home{
+	background-image:url('../img/phone_screens/voice_home-01.png');
+}
+#voice-weather{
+	background-image:url('../img/phone_screens/voice_weather-01.png');
+}
+#voice-text{
+	background-image:url('../img/phone_screens/voice_text-01.png');
+}
+#voice-search{
+	background-image:url('../img/phone_screens/voice_search-01.png');
+}
+
+.voice-link{
+	width:293px;
+	height:64px;
+	position:absolute;
+	left:12px;
+	border-radius:5px;
+	background:none;
+}
+
+.voice-link:hover{
+	background:#77f;
+	opacity:0.3;
+}
+
+#voice-weather-link{
+	top:222px;
+}
+
+#voice-text-link{
+	top:297px;
+}
+
+#voice-search-link{
+	top:372px;
+}
+
+#voice-back{
+	position:absolute;
+	top:410px;
+	left: 107px;
+	width:112px;
+	height:45px;
+	border-radius:4px;
+	background:none;
+}
+#voice-back:hover{
+	background:#77f;
+	opacity:0.5;
+}
+
 
 /* Notification/loading messages */
 

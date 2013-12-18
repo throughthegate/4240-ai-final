@@ -29,12 +29,17 @@ $content = "
 for($j=1; $j<=2; $j++){
 	$content .= "<div class='icon-row'>";
 	for($i=1; $i<=4; $i++){
-		$content.="
-		<div class='icon placeholder text-center'>
-				<img src='img/icons/placeholder-01.png' /><br/>
-				Lorem Ipsum
-		</div>
-		";
+		if($j==2 && $i==4){
+			$content .="";
+		}
+		else{
+			$content.="
+			<div class='icon placeholder text-center'>
+					<img src='img/icons/placeholder-01.png' /><br/>
+					Lorem Ipsum
+			</div>
+			";
+		}
 	}
 	$content .= "</div>";
 }
@@ -42,7 +47,8 @@ for($j=1; $j<=2; $j++){
 $content .= "
 	<div class='icon-row bottom-row '>
 		<p class='text-center'>
-			<img src='img/icons/voice_command-01.png' /><br/>
+			<a href='iphone-voice.php'><img src='img/icons/voice_command-01.png' /></a>
+			<br/>
 			
 		</p>
 	</div>
