@@ -60,6 +60,21 @@ h3{ font-size: 1.2em;}
     font-size: 14px;
 }
 
+<<<<<<< HEAD
+=======
+#rerollTraits{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    font-size:2em;
+    padding:25px;
+    padding-bottom: 55px;
+    height:50px;
+    border-radius:10px;
+}
+
+>>>>>>> 166740ba5bf989be4adb5389082b8c3303a341c1
 /*end common classes  */
 
 #header{
