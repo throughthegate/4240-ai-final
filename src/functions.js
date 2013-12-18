@@ -111,10 +111,12 @@ $(document).ready(function(){
 /* 
 Play/pause the video
 */
-var myVideo=document.getElementById("alarmAudio"); 
+
 
 function playPause()
-{ 
+{
+var myVideo=document.getElementById("alarmAudio");  
+console.log("play/pause");
 if (myVideo.paused) 
   myVideo.play(); 
 else 

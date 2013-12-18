@@ -5,10 +5,10 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 $content = "
 	<div id='trigger-alarm' class='iphone-app' >
 	</div>
-	<a href='iphone-home.php' id='snooze' class='div-link alarm-trigger-link' data-msg='Hit snooze' onclick='playPause()'>
+	<a href='iphone-home.php' id='snooze' class='div-link message-link alarm-trigger-link' data-msg='Hit snooze' data-time=3000 onClick='playPause()'>
 		&nbsp; 
 	</a>
-	<a href='iphone-home.php' id='turn-off' class='div-link  alarm-trigger-link' data-msg='Hit turn off' onclick='playPause()' >
+	<a href='iphone-home.php' id='turn-off' class='div-link message-link alarm-trigger-link' data-msg='Hit turn off' data-time=3000 onClick='playPause()' >
 		&nbsp; 
 	</a>
 	<audio autoplay loop id='alarmAudio'>
