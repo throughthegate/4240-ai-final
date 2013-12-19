@@ -53,7 +53,7 @@ include_once('includes/firstLine.php'); //include this to check sessions.
 		<a id='lock-button' class='div-link text-center' target='iphone-iframe' href="iphone-lock.php">Lock Phone</a>
 		<a id='off-button' class='div-link text-center' target='iphone-iframe' href="iphone-off-load.php">Turn Off</a>
                 <img src="img/icons/text_bubble-01.png" id="speech_bubble"></img>
-                <p id="speech_b_text">Please don't throw me away, <?php echo $_SESSION['name'] ?>! Let's live a long and happy life together!</p>
+                <p id="speech_b_text">Please don't throw me away, <?php echo $_SESSION['name'] ?>! Let's live a happy life together!</p>
         </div>
         
         <!-- diagnostics div -->
