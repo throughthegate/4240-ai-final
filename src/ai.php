@@ -13,7 +13,7 @@
     //Randomly picks two positive traits and assigns them to the appropriate session variables
       //The list of AI traits
     $trait_positive = array("jovial", "motivational", "amorous", "bubbly", "humorous", "optimistic", "artistic", "empathetic", "adventurous");
-    $trait_negative = array("belligerent", "lazy", "snarky", "pessimistic", "bossy", "pedantic", "crude");
+    $trait_negative = array("belligerent", "lazy", "snarky", "pessimistic", "bossy", "pedantic");
         
         $trait_randompos = array_rand($trait_positive, 2);
         $_SESSION['trait1'] = $trait_positive[$trait_randompos[0]];
